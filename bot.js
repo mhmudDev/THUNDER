@@ -3,7 +3,7 @@ const client = new Discord.Client();
     bot = new Discord.Client({sisableEveryone: true})
     console.log("muuuuuuuuute,");
 bot.on('guildMemberAdd', member => {
-const mohamed= member.guild.channels.get("576374909496983582");
+const mohamed= member.guild.channels.get("583623939503292426");
 if(!mohamed) return;
 if(mohamed) {
 setTimeout(() => mohamed.send(`**Weclome To Darkside.** :sparkles:`), 4000)        
